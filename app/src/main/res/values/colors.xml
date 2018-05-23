@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="selectedBackground">#CCCCCC</color>
+  <color name="textColorForSelectedBackground">#333333</color>
+  <color name="selectedHighlightBackground">#44aaaabe</color>
+  <color name="textInsideColorPrimaryBackground">#FFFFFF</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="mainContentText">#000000</color>
+  <color name="subContentText">#555</color>
+  <color name="listBackground">#E2E2E2</color>
+  <color name="unSelectedText">#888888</color>
+  <color name="lockItemsBackground">#EEEEEE</color>
+  <color name="iconInPrimaryUnSelected">#FFFFFF</color>
+  <color name="iconInPrimarySelected">#FFFF00</color>
+  <color name="newItemsForeground">#FF0000</color>
+  <color name="drawerBackground">#FFFFFF</color>
+  <color name="dialogBackground">#FFFFFF</color>
+  <color name="itemInListBackground">#FFFFFF</color>
+  <color name="keepTouchPressBackgroundColor">#5544c4ff</color>
+  <color name="keepTouchPressBackgroundColorWithoutAlpha">#44c4ff</color>
+
+  <color name="colorPrimary">#01579b</color>
+  <color name="colorPrimaryDark">#002f6c</color>
+  <color name="colorPrimaryLight">#4f83cc</color>
+
+  <color name="colorSecondary">#75a479</color>
+  <color name="colorSecondaryDark">#003300</color>
+  <color name="colorSecondaryLight">#44629749</color>
+  <color name="colorSecondaryText">#ffffff</color>
+</resources>

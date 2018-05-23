@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/normalToolbarMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:visibility="visible"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/drawerIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="{faw-bars}"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/activityTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Forums"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/newTopicsTextView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/iconInPrimarySelected"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/new_items_in_toolbar"
+        android:clickable="true"
+        android:foreground="@drawable/rip"/>
+
+</LinearLayout>

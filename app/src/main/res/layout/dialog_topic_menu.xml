@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:padding="10dp"
+    android:background="@drawable/dialog_shape"
+    tools:context="drupal.forumapp.activities.EditTopicActivity"
+    tools:showIn="@layout/activity_edit_topic">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingLeft="5dp"
+      android:orientation="vertical"
+      android:weightSum="1">
+    <TextView
+        android:id="@+id/viewMenuTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:foreground="@drawable/rip"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="@string/topic_menu_view"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/mainContentText" />
+    <TextView
+        android:id="@+id/editMenuTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:foreground="@drawable/rip"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="@string/topic_menu_edit"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/mainContentText" />
+    <TextView
+        android:id="@+id/deleteMenuTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:clickable="true"
+        android:foreground="@drawable/rip"
+        android:text="@string/topic_menu_delete"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/mainContentText" />
+    <TextView
+        android:id="@+id/addCommentMenuTextView"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:foreground="@drawable/rip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="@string/topic_menu_add_comment"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/mainContentText" />
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>

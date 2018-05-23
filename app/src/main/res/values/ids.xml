@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="forum_title" />
+    <item type="id" name="topic_title" />
+    <item type="id" name="user_icon_data"></item>
+    <item type="id" name="current_item"></item>
+</resources>

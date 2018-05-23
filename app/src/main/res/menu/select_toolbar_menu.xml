@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="drupal.forumapp.activities.TopicCommentsActivity">
+  <item
+      android:id="@+id/view"
+      android:orderInCategory="100"
+      android:title="@string/topic_menu_view"
+        />
+  <item
+      android:id="@+id/edit"
+      android:orderInCategory="100"
+      android:title="@string/topic_menu_edit"
+        />
+  <item
+      android:id="@+id/delete"
+      android:orderInCategory="100"
+      android:title="@string/topic_menu_delete"
+        />
+  <item
+      android:id="@+id/addComment"
+      android:orderInCategory="100"
+      android:title="@string/topic_menu_add_comment"
+        />
+</menu>

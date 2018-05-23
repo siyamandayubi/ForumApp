@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/itemInListBackground"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="drupal.forumapp.activities.EditTopicActivity"
+    tools:showIn="@layout/activity_edit_topic">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:weightSum="1">
+
+
+    <TextView
+      android:id="@+id/toolbarTitleTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/title_activity_edit_topic"
+        android:layout_margin="10dp"
+      android:textAlignment="center"
+      android:textSize="18sp" />
+
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical|center_horizontal"
+          android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+          android:orientation="horizontal">
+
+      <include layout="@layout/forum_list_item" />
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <EditText
+          android:id="@+id/titleText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:backgroundTint="@color/colorPrimary"
+          android:ems="10"
+          android:hint="@string/edit_topic_title"
+          android:inputType="textPersonName"
+          android:text=""
+          android:textSize="14sp"
+          android:textColorLink="@color/colorPrimary"
+          android:textCursorDrawable="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <EditText
+          android:id="@+id/bodyText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:backgroundTint="@color/colorPrimary"
+          android:textSize="14sp"
+          android:ems="10"
+          android:hint="@string/edit_topic_description"
+          android:inputType="textMultiLine"
+          android:minHeight="150dp"
+          android:scrollbars="vertical"
+          android:text=""
+          android:textColorLink="@color/colorPrimary"
+          android:textCursorDrawable="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>
